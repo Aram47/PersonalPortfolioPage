@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+header {
+    height: 150px;
+    box-shadow: 0 0px 10px 0px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}
+
+.WelcomeBar {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.MyPortfolio {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.MainDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.FirstColumn {
+    width: 100%;
+    margin: 100px;
+}
+
+.AcademyImg .EarthImg .MyPhotoImg{
+    width: 100%;
+}
+
+.SecondColumn {
+    width: 100%;
+}
+
+.Column {
+    margin-bottom: 40px;
+    box-shadow: 0 15px 10px 5px rgba(0,0,0,0.5);
+
+}
+
+footer {
+    background-color: gray;
+}
+
+.ListBar {
+    width: 300px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
